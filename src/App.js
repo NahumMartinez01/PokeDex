@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(0);
   const [totalPage, setTotalPage] = useState(0);
   const [cargando, setCargando] = useState(false);
 

@@ -23,7 +23,7 @@ const Pokemons = ({pokemons, page, setPage, total, cargando}) => {
   return (
     <div className='container'>
         <div>
-            <img src={pokedex}/>
+            <img src={pokedex} alt={"pokedex"}/>
         </div>
         <div className='top-pagination'>
             <Paginacion 

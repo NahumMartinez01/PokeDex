@@ -8,7 +8,7 @@ const Cards = ({personajes}) => {
     <div>
         <div className={` cards ${personajes.types[0].type.name}`}>
             <h3>#{personajes.id}</h3>
-            <img src={personajes.sprites.other["dream_world"].front_default}/>
+            <img src={personajes.sprites.other["dream_world"].front_default} alt={personajes.name}/>
             <h2>{personajes.name}</h2>
             
             <div className="types">

@@ -8,7 +8,7 @@ const Paginacion = ({onPrevious, onNext, page, totalPages}) => {
     <div className='pagination'>
         <button onClick={onPrevious}>
             <div>
-                <img src={previous} />
+                <img src={previous} alt={"previous"}/>
             </div>
         </button>
         <div className='pages'>
@@ -16,7 +16,7 @@ const Paginacion = ({onPrevious, onNext, page, totalPages}) => {
         </div>
         <button onClick={onNext}>
             <div>
-                <img src={next} />
+                <img src={next} alt={"next"}/>
             </div>
         </button>
     </div>
