@@ -1,0 +1,22 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(
+        300px,
+        1fr
+    ));
+   gap: 10px;
+   margin: 0 50px;
+}    
+
+.top-pagination{
+    display: flex;
+    justify-content: start;
+}
+
+.footer-pagination{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    margin: 0 60px;
+    gap: 20px;
+}
+
+button {
+    color: #fff;
+}
+
+.pagination img {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+}
+
+.pages {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pages .actual {
+    color: #FFCC01;
+}
+
+.pages .total {
+    color: #2D9167;
+}

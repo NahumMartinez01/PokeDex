@@ -1,0 +1,155 @@
+
+.cards {
+    border-radius: 6px;
+    width: 330px;
+    margin: auto;
+    font-family: 'Press Start 2P';
+    color: #fff;
+}
+
+.cards img {
+    width: 250px;
+    height: 250px;
+    object-position: center;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 24px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+h3 {
+    padding-top: 12px;
+    padding-right: 12px;
+    text-align: end;
+}
+
+h2 {
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.types h4 {
+    width: 60%;
+    margin: 12px 0;
+    padding: 10px 14px;
+    
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.types .fire {
+    background-color: #EC380C;
+}
+
+.types .flying {
+   background-color:  #8097D7;
+}
+
+.types .grass {
+    background-color: #81C647;
+}
+
+.types .water {
+    background-color: #43A9F1;
+}
+
+.types .bug {
+    background-color: #B3BC26;
+}
+
+.types .normal {
+    background-color: #B9B6A8;
+}
+
+.types .poison {
+    
+    background-color: #b936fa;
+}
+
+.types .electric {
+    background-color: #DBBA23;
+}
+
+
+.bug {
+    background-color: #aedf78;
+}
+
+.water {
+    background-color: #43ccff;
+}
+
+.grass {
+    background-color: #00ca91;
+}
+
+.fire {
+    background-color: #e95c4d;
+}
+
+.normal{
+    background-color: #a5a5a5;
+}
+
+.poison {
+    background-color: #CD69FF;
+}
+
+.electric {
+    background-color: #F3BE34;
+}
+
+.ground {
+    background-color: #DBBC69;
+}
+
+.fairy {
+    background-color: #FBD3FB;
+}
+
+.fighting {
+    background-color: #7D321C;
+}
+
+.psychic {
+    background-color: #F06194;
+}
+
+.rock {
+    background-color: #B8A038;
+}
+
+.ghost {
+    background-color: #705898;
+}
+
+.dragon {
+    background-color: #7038F8;
+}
+
+.ice {
+    background-color: #98D8D8;
+}
+
+.dark {
+    background-color: #705848;
+}
+
+.steel {
+    background-color: #B8B8D0;
+}
